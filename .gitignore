@@ -1,0 +1,41 @@
+# Datasets, source images and annotations
+datasets/
+data/
+labels/
+work/
+crawled/
+images/
+
+# Model binaries and release artifacts
+weights/
+weights_v2/
+*.pth
+*.pt
+*.onnx
+*.engine
+dist/
+build/
+release-assets/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Python and IDE caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.lock
+
